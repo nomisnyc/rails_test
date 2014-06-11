@@ -56,6 +56,7 @@ Rails.application.routes.draw do
   get '/home' => 'home#homepage'
   get '/about' => 'home#about'
   get '/faq' => 'home#faq'
+  get '/calc' => 'calc#calculate'
 
   get '/calc/:x/:y/:operator' => 'calc#calculate'
 
