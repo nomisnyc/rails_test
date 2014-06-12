@@ -1,3 +1,10 @@
 <h2> Welcome to Calculate </h2>
 
+<form action='/calc' method='get'>
+  First Number<input type ="text" name="x" autofocus="true" value=" 1 " >
+  Operator <input type ="text" name="operator" value="+">
+  Second Number<input type ="text" name="y" value="2">
+  <button>Calculate!</button>
+</form>
+
 <%= "The result of #{@x} and #{@y} is #{@result}" %>

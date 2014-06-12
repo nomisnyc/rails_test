@@ -32,10 +32,10 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-stack_explorer'
   gem 'annotate'
-  gem 'debugger'
+  # gem 'debugger'
   gem 'quiet_assets'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
-  gem 'rails-assets-angular-mocks'
+  # gem 'rails-assets-angular-mocks'
 end
